@@ -41,6 +41,10 @@ ul {
 li {
 	padding: 10px;
 	border-bottom: 1px solid #ddd;
+	/* ho aggiunto queste 3 cose perché il tasto elimina e l'orario sono finiti sotto il testo delle task */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* Aggiungi qui le tue regole CSS per:
