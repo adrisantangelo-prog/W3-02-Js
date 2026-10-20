@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 600px;
+	margin: 30px auto;
+	padding: 20px;
+	color: #1b2845;
+}
+
+h1 {
+	margin-bottom: 24px;
+}
+
+.aggiunta {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+input {
+	flex: 1;
+	padding: 10px;
+	font-size: 16px;
+	font-family: inherit;
+}
+
+button {
+	padding: 10px 20px;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+/* Aggiungi qui le tue regole CSS per:
+   - .priorita-alta / .priorita-media / .priorita-bassa
+   - .badge (l'etichetta della priorità dentro il task)
+   - .data (la data di creazione)
+   - .evidenziato (sfondo giallo, bordo)
+*/
+
+.priorita-alta {
+	background-color: #FDE2E2;
+}
+
+.priorita-media {
+	background-color: #FFFBE6;
+}
+
+.priorita-bassa {
+	background-color: #E2F5E2;
+}
+
+.badge {
+	font-size: 12px;
+	padding: 2px 8px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
+.data {
+	font-size: 12px;
+	color: gray;
+	margin-left: auto;
+}
+
+.evidenziato {
+	border: 3px solid #F6C948;
+}
+
+.divData {
+	width: fit-content;
+	float: right;
+}
+
+li button {
+	font-size: 12px;
+	height: fit-content;
+	padding: 4px;
+	margin-left: 5px;
+}
